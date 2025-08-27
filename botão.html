@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alterar Estilo do Parágrafo</title>
+</head>
+<body>
+
+    <!-- Parágrafo que será estilizado -->
+    <p id="meuParagrafo">Não tem nada.</p>
+
+    <!-- Botão que chama a função para mudar o estilo -->
+    <button onclick="mudarEstilo()">não clique</button>
+
+    <script>
+        // Função que altera o estilo do parágrafo
+        function mudarEstilo() {
+            // Pegando o parágrafo pelo ID
+            var paragrafo = document.getElementById("meuParagrafo");
+
+            // Mudando o estilo do parágrafo
+            paragrafo.style.color = "blue";             // Muda a cor do texto
+            paragrafo.style.fontSize = "24px";          // Muda o tamanho da fonte
+            paragrafo.style.fontWeight = "bold";        // Deixa o texto em negrito
+            paragrafo.style.fontFamily = "Arial";       // Muda a fonte do texto
+        }
+    </script>
+
+</body>
+</html>
