@@ -42,3 +42,13 @@ a.botao:hover {
   border: 2px solid #00FF00;
   border-radius: 5px;
 }
+.projeto img {
+  width: 80%;      /* diminui para 80% da largura do bloco */
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid #00FF00;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
