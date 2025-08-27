@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mostrar Data e Hora</title>
+</head>
+<body>
+
+    <!-- Parágrafo vazio onde a data e hora vão aparecer -->
+    <p id="dataHora"></p>
+
+    <!-- Botão para mostrar a data e hora -->
+    <button onclick="mostrarDataHora()">Mostrar Data e Hora</button>
+
+    <script>
+        // Função que pega a data e hora atual e mostra no parágrafo
+        function mostrarDataHora() {
+            // Criando um objeto de data com a data e hora atuais
+            var agora = new Date();
+
+            // Pegando o parágrafo pelo ID
+            var paragrafo = document.getElementById("dataHora");
+
+            // Colocando a data e hora no parágrafo
+            paragrafo.innerText = agora.toString();
+        }
+    </script>
+
+</body>
+</html>
